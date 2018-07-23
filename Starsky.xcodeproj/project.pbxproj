@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		301B29D02101D0B700EDDA27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B29CF2101D0B700EDDA27 /* AppDelegate.swift */; };
-		301B29D22101D0B700EDDA27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B29D12101D0B700EDDA27 /* ViewController.swift */; };
+		301B29D22101D0B700EDDA27 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B29D12101D0B700EDDA27 /* ViewController1.swift */; };
 		301B29D52101D0B700EDDA27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301B29D32101D0B700EDDA27 /* Main.storyboard */; };
 		301B29D82101D0B700EDDA27 /* Starsky.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 301B29D62101D0B700EDDA27 /* Starsky.xcdatamodeld */; };
 		301B29DA2101D0B800EDDA27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301B29D92101D0B800EDDA27 /* Assets.xcassets */; };
 		301B29DD2101D0B800EDDA27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301B29DB2101D0B800EDDA27 /* LaunchScreen.storyboard */; };
+		301B29E52101D0E100EDDA27 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B29E42101D0E100EDDA27 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		301B29CC2101D0B700EDDA27 /* Starsky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starsky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		301B29CF2101D0B700EDDA27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		301B29D12101D0B700EDDA27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		301B29D12101D0B700EDDA27 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		301B29D42101D0B700EDDA27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		301B29D72101D0B700EDDA27 /* Starsky.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Starsky.xcdatamodel; sourceTree = "<group>"; };
 		301B29D92101D0B800EDDA27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		301B29DC2101D0B800EDDA27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		301B29DE2101D0B800EDDA27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301B29E42101D0E100EDDA27 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				301B29CF2101D0B700EDDA27 /* AppDelegate.swift */,
-				301B29D12101D0B700EDDA27 /* ViewController.swift */,
+				301B29D12101D0B700EDDA27 /* ViewController1.swift */,
+				301B29E42101D0E100EDDA27 /* ViewController2.swift */,
 				301B29D32101D0B700EDDA27 /* Main.storyboard */,
 				301B29D92101D0B800EDDA27 /* Assets.xcassets */,
 				301B29DB2101D0B800EDDA27 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				301B29D22101D0B700EDDA27 /* ViewController.swift in Sources */,
+				301B29D22101D0B700EDDA27 /* ViewController1.swift in Sources */,
+				301B29E52101D0E100EDDA27 /* ViewController2.swift in Sources */,
 				301B29D02101D0B700EDDA27 /* AppDelegate.swift in Sources */,
 				301B29D82101D0B700EDDA27 /* Starsky.xcdatamodeld in Sources */,
 			);
@@ -291,10 +295,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pixelinspiration.Starsky;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelinspiration.PixPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -309,10 +313,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pixelinspiration.Starsky;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelinspiration.PixPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
